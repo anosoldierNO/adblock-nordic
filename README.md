@@ -1,8 +1,8 @@
-<h1><b>adblock-nordic by AnoSoldierNO</b></h1>
+<h1><b>Adblock Nordic by AnoSoldierNO</b></h1>
 
 <h2><b>Overview</b></h2>
 
-<p>adblock-nordic by AnoSoldierNO is an open-source project that provides a custom-made adblock list with entries for Nordic countries. The project is licensed under the GNU GENERAL PUBLIC LICENSE.</p>
+<p>Adblock Nordic by AnoSoldierNO is an open-source project that provides a custom-made adblock list with entries for Nordic countries. The project is licensed under the GNU GENERAL PUBLIC LICENSE.</p>
 
 <p>Say goodbye to pesky ads and pop-ups with Adblock Nordic - the ultimate ad-blocking solution for your browser. This easy-to-use script blocks all kinds of annoying ads, including video ads, banner ads, and even those tricky pop-ups that disrupt your browsing experience.
 
