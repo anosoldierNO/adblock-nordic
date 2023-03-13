@@ -158,5 +158,5 @@ def upload_to_github(file_path, commit_message):
                 'email': 'anosoldierno@proton.me'
             },
             committer={
-                'name': 'GitHub Action',
+                'name': 'GitHub Action', 
                 '
