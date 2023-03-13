@@ -4,7 +4,15 @@
 
 <p>adblock-nordic by AnoSoldierNO is an open-source project that provides a custom-made adblock list with entries for Nordic countries. The project is licensed under the GNU GENERAL PUBLIC LICENSE.</p>
 
-<p>The adblock list is designed to work with popular adblocker software like Pihole, AdGuard, uBlock Origin, and others. By using this list with your adblocker software, you can block unwanted ads and improve your browsing experience while also protecting yourself from potentially harmful ads.</p>
+<p>Say goodbye to pesky ads and pop-ups with Adblock Nordic - the ultimate ad-blocking solution for your browser. This easy-to-use script blocks all kinds of annoying ads, including video ads, banner ads, and even those tricky pop-ups that disrupt your browsing experience.
+
+By using Adblock Nordic, you can enjoy a faster and smoother browsing experience without the hassle of unwanted ads. No more waiting for ads to load or accidentally clicking on them - just pure, uninterrupted browsing.
+
+But that's not all - Adblock Nordic also helps to protect your privacy and security while online. It blocks malicious ads and trackers that can compromise your personal information and browsing behavior.
+
+Our script is constantly updated to stay ahead of the latest ad trends and to ensure the best browsing experience for our users. Plus, it's completely free and open-source, so you can trust that your data is safe and secure.
+
+With Adblock Nordic, you're in control of your browsing experience. Say goodbye to annoying ads and hello to a faster, safer, and more enjoyable browsing experience. Download Adblock Nordic today and start enjoying the web the way it was meant to be!.</p>
 
 <h2><b>Features</b></h2>
 
