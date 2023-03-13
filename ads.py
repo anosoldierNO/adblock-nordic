@@ -1,5 +1,12 @@
 #!/usr/bin/env python3
 
+## Combining Several Sources into One
+## Our script is a powerful ad-blocking solution that combines several sources into one, 
+## providing you with the most comprehensive protection against unwanted ads and pop-ups. 
+## By merging these sources, we have created a single, easy-to-use script that offers 
+## the best ad-blocking experience for our users.
+
+
 ###############################################################################
 # BLOCK THE NOISE!                                                            #
 ###############################################################################
