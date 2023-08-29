@@ -89,6 +89,7 @@ def upload_to_github(file_path, commit_message):
             'sha': blob.sha
         })
         new_tree = repo.create_git_tree([element], base_tree=tree)
+    
 
         # Create a new commit with the updated tree
         commit = repo.create_git_commit(
