@@ -1,55 +1,34 @@
 #!/usr/bin/env python3
+""""
+This code first imports the following modules:
 
-"""
-This script is a powerful ad-blocking solution that combines several sources into one,
-providing you with the most comprehensive protection against unwanted ads and pop-ups.
-By merging these sources, we have created a single, easy-to-use script that offers
-the best ad-blocking experience for our users.
+os for file handling
+requests for downloading files from the internet
+github for interacting with GitHub repositories
+The code then defines the following constants:
 
-**Block the Noise!**
+REPO_OWNER: The GitHub username of the owner of the repository where the hosts file will be uploaded
+REPO_NAME: The name of the repository where the hosts file will be uploaded
+REPO_BRANCH: The name of the branch in the repository where the hosts file will be uploaded
+ACCESS_TOKEN: A GitHub access token with the necessary permissions to upload files to the repository
+url_list: A list of URLs of hosts files that will be downloaded and combined
+The code then defines the following functions:
 
-Say goodbye to annoying ads and hello to a cleaner, faster browsing experience with
-adblock-nordic by anosoldierNO. This repository contains a custom-made adblock list
-with entries for Nordic countries, built to help you block unwanted ads on your devices.
-By using this list with adblocker software like Pihole, you can enjoy a safer,
-more enjoyable browsing experience without any distractions. Don't let ads slow you down –
-take control of your online experience today with adblock-nordic.
+combine_hosts(): This function downloads the hosts files from the URLs in url_list and combines them into a single file. 
+The combined file is then written to a file named hosts.
+upload_to_github(): This function uploads the file named hosts to the GitHub repository specified by the constants
+REPO_OWNER, REPO_NAME, and REPO_BRANCH. The file is uploaded with the commit message Merged hosts file.
+The code then calls the combine_hosts() function. 
+The combine_hosts() function downloads the hosts files from the URLs in url_list and combines them into a single file. 
+The combined file is then written to a file named hosts.
 
-**Copyright Information**
+Finally, the code calls the upload_to_github() function. The upload_to_github() function uploads the file named hosts - 
+to the GitHub repository specified by the constants REPO_OWNER, REPO_NAME, and REPO_BRANCH. 
+The file is uploaded with the commit message Merged hosts file.
 
-This adblock list is an open-source project and is licensed under the MIT License.
-
-(c) 2023 anosoldierNO
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this
-software and associated documentation files (the "Software"), to deal in the Software
-without restriction, including without limitation the rights to use, copy, modify,
-merge, publish, distribute, sublicense, and/or sell copies of the Software, and to
-permit persons to whom the Software is furnished to do so, subject to the following
-conditions:
-
-The above copyright notice and this permission notice shall be included in all copies
-or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
-INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
-PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
-HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
-OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
-SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-**Standard Information**
-
-This is the adblock-nordic repository by anosoldierNO. It contains a custom-made
-adblock list with entries for Nordic countries.
-
-Check out anosoldierNO's Github profile for more information and updates:
-https://github.com/anosoldierNO
-
-You can use this list with adblocker software like Pihole to prevent ads from appearing
-on your devices. Not only will this enhance your browsing experience, but it will also
-protect you from malicious ads that could potentially harm your device.
-"""
+In summary, this code downloads three hosts files from the internet, combines them into a single file, 
+and then uploads the combined file to a GitHub repository.
+""""
 
 
 import os
